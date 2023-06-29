@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border-color: aqua;
+    border-width: 100px;
+   
+}
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+body{
+    background-color: #c3c3c1;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Montserrat" , sans-serif;
+    align-items: center;
+   
+}
+
+
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    right: 550px;
+    bottom: -900px;
+    text-align:justify;
+    word-break:keep-all;
+    max-width: 3ch;
+    padding-bottom: 30px;
+
+}
+
+.nav-links a{
+    line-height: 200px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 18px 16px;
+    margin: 0;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 5px;
+   
+    
+}
+
+
+.nav-links li a:hover:not(.active){
+    background-color: #afaba2;
+}
+.nav-links li a.active{
+    background-color: #afaba2;
+}
+
+a[href="technical.html"]{
+    width: 20px;
+    font-stretch: expanded;
+    line-height: 65px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+h4{
+    display: flex;
+    position: relative;
+    font-family: "Montserrat" , sans-serif;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 90px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 5px;
+    right: 300px;
+    top: -50px;
+}
+
+
+
+
+.ai-logo{
+    width: 0px;  
+}
+
+.medal{
+    width: 0px;
+}
+
+.achivement{
+    width: 0px; 
+}
+
+
+.portfolio{
+    width: 0px;
+   
+}
+
+.clanek{
+    width: 850px;
+    position: relative;
+    top: -200px;
+    right: -1100px;
+    
+}
+
+.stopnicke{
+    width: 400px;
+    position: relative;
+    top: -199px;
+    right: 150px;
+    height: 750px;
+}
+
+.sport{
+    position: relative;
+    text-align: left;  
+    text-indent: -5px;
+    text-align-last: center;
+    color: #2f2a26;
+    width: 650px;
+    top: -800px;
+    right: -20px;
+    font-family: "Montserrat" , sans-serif;
+}
+
+.slovenia{
+    position: relative;
+    text-align: left;  
+    text-indent: -5px;
+    text-align-last: center;
+    color: #2f2a26;
+    width: 650px;
+    top: -650px;
+    right: -20px;
+    font-family: "Montserrat" , sans-serif;
+}
+
+.balkan{
+    position: relative;
+    text-align: left;  
+    text-indent: -5px;
+    text-align-last: center;
+    color: #2f2a26;
+    width: 650px;
+    top: -500px;
+    right: -20px;
+    font-family: "Montserrat" , sans-serif;
+}
+   
+h2{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #2f2a26;
+}
+
+a:link, a:visited{
+    color:   #806f5d;
+    font-size: x-large;
+    }
+    
+    a:hover{
+        color: rgb(250, 141, 7);
+        font-size: x-large;
+    }
+
+    button{
+        position: relative;
+        top: -200px;
+        right: -700px;
+        width: 300px;
+        font-size: 50px;
+        padding: 25px 50px;
+        cursor: pointer;
+        border: none;
+        background-color: #2f2a26;
+        color: rgb(255, 255, 255);
+        font-family: "Montserrat" , sans-serif;
+        letter-spacing: 3px;
+        border-radius: 15px;
+        box-shadow: 0px 17px 0px 0px #afaba2;
+      }
+    
+      button:hover{
+       background-color: #c3c3c1;
+      }
+    
+      button:active{
+        transform: translateY(7px);
+        box-shadow: 0px 10px 0px 0px rgb(67, 88, 93);
+      }
+
+
+
+    

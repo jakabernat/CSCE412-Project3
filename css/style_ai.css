@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  section {
+    width: 50%;
+    margin: 25px;
+    text-align: left;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 50px;
+  }
+  

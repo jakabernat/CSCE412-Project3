@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: #806f5d;
+}
+html, body{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+
+.heading{
+    width: 0px;
+}
+
+nav{
+    display: block;
+    justify-content: space-evenly;
+    font-family: "Montserrat" , sans-serif;
+}
+
+.nav-links{
+    display: block;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    text-align:justify;
+    word-break:keep-all;
+    max-width: 3ch;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+
+
+.nav-links a{
+    line-height: 200px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 60px;
+    padding: 0px;
+    margin: 0;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 5px;
+
+
+}
+
+.nav-links li a:hover:not(.active){
+    background-color: #c3c3c1;
+}
+.nav-links li a.active{
+    background-color: #2f2a26;
+}
+
+a[href="technical.html"]{
+    width: 20px;
+    font-stretch: expanded;
+    line-height: 65px;
+}
+
+.heading-text{
+    display: flex;
+    position: relative;
+    font-family: sans-serif;
+    color: white;
+    font-size: 60px;
+    top: 0px;
+    right: -650px;
+ 
+}
+
+.subheading-text{
+    display: flex;
+    position:relative;
+    top: 5px;
+    font-family: "Montserrat" , sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    right: -160px;
+    color: black;
+}
+
+.intro{
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-style: italic;
+    font-variant-ligatures: normal;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: white;
+    right: -300px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #c3c3c1;
+    top: 100px;
+    
+    
+}
+
+.ai-logo{
+    width: 80px;
+    position: relative;
+    top: -280px;
+    right: 170px;   
+}
+
+.medal{
+    width: 80px;
+    position: relative;
+    top: -490px;
+    right: 40px;   
+}
+
+.achivement{
+    width: 80px;
+    position: relative;
+    top: -700px;
+    right: -110px;   
+}
+
+
+.portfolio{
+    width: 80px;
+    position: relative;
+    top: -850px;
+    right: 100px;   
+}
+
+.img-face{
+    width: 250px;
+    position: relative;
+    top: -800px;
+    right: -1450px;  
+    
+}
+
+.linkedin{
+    width: 150px;
+    position: relative;
+    top: 100px;
+    right: -600px;     
+}
+
+.git{
+    width: 150px;
+    position: relative;
+    top: 100px;
+    right: -650px;     
+}
+
+.instagram{
+    width: 150px;
+    position: relative;
+    top: 100px;
+    right: -700px;     
+}
+
+.container{
+    position: relative;
+    top: -200px;
+    right: -100px;
+  }
+
+  button{
+    position: relative;
+    top: 100px;
+    right: 100px;
+    width: 300px;
+    font-size: 50px;
+    padding: 25px 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #2f2a26;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat" , sans-serif;
+    letter-spacing: 3px;
+    border-radius: 15px;
+    box-shadow: 0px 17px 0px 0px #afaba2;
+  }
+
+  button:hover{
+   background-color: #c3c3c1;
+  }
+
+  button:active{
+    transform: translateY(7px);
+    box-shadow: 0px 10px 0px 0px rgb(67, 88, 93);
+  }
+
