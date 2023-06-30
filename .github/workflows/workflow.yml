@@ -1,4 +1,5 @@
 name: CloudFront Cache Invalidation
+
 on:
   push:
     branches:
@@ -15,7 +16,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
 
-    - name: Create Cache Invalidation
+      - name: Create Cache Invalidation
         id: invalidate
         run: |
           invalidation_id=$(date +%s)
