@@ -1,6 +1,23 @@
-- name: Invalidate CloudFront cache
-  run: |
-    aws cloudfront create-invalidation --distribution-id EHJ7UGRPNEPWU --paths "/*"
-  env:
-    AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-    AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+name: Your Workflow Name
+
+on:
+  push:
+    branches:
+      - main  # Change this to the appropriate branch name if needed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Add your steps to update the bucket here
+
+      - name: Invalidate CloudFront cache
+        run: |
+          aws cloudfront create-invalidation --distribution-id EHJ7UGRPNEPWUD --paths "/*"
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
